@@ -1,0 +1,157 @@
+html {
+	font-size: 16px;
+	font-family:Bookman, URW Bookman L, serif;
+	background-color:#d1c1bf; 
+	margin: 0 auto;
+	
+}
+
+header{
+	width: 100%;
+	background:#7a4b44;
+	height: 105px;
+}
+
+.header-email {
+	color: #d9d2d1;
+	position: absolute;
+	top: 75px;
+	left: 930px;
+
+}
+
+.header-phone{
+    color: #d9d2d1;
+	position: absolute;
+	top: 75px;
+	left: 1100px;
+}
+
+.footer-email{
+	color: #d9d2d1;
+	position: absolute;
+	top: 950px;
+	left: 930px;
+}
+
+.footer-phone{
+    color: #d9d2d1;
+	position: absolute;
+	top: 950px;
+	left: 1100px;
+}
+body {
+	width:900px;
+	margin:0 auto;
+	background-color: ;
+	padding: 0 20px 20px 20px;
+	
+}
+
+
+table {
+	width: 100%;
+	background:#d1c1bf ;
+	color: ;
+	border-spacing: 6px;
+	text-align: center;
+}
+td {
+    background:#c1aba7 ;
+    padding: 6px;
+}
+th {
+    background:#997570;
+	padding: 6px;
+}
+.title{ 
+	font-size: 36px;
+	text-align: center;
+
+}
+
+p{ 
+	font-size:17px;
+   text-align:justify;
+}
+
+h1{
+	font-size:29px;
+	text-align: center;
+}
+h2{
+    font-size:27px;
+	text-align: left;
+	color:#372321;
+}
+h3{
+	font-size:19px;
+	text-align: left;
+	color:#7a4b44;
+
+}
+
+li{
+	font-size: 16px ;
+	text-align: left ;
+
+}
+
+
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { float: left; }
+#navbar ul li { float: none; }
+
+#navbar ul {
+  display: none;
+  background-color:#9c7974;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 40px;
+  background-color: #7a4b44;
+  padding-left: 20px;
+  min-width: 300px;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 70%;
+}
+#navbar li a {
+  display: block;
+  padding: 2px;
+  width: 100px;
+  color: #dbd5d4;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #9c7974; }
+#navbar ul li:hover { background-color: #7a4b44; }
+
+img {
+	display: block;
+	margin: 0 auto;
+	
+}
+
+footer {
+    width: 100%;
+	background:#7a4b44;
+	height: 50px;
+}
+
+
+system-ui;
